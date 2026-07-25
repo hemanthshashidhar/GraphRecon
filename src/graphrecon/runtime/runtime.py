@@ -1,6 +1,8 @@
 from graphrecon.browser.browser_manager import BrowserManager
 from graphrecon.collectors.page.page_collector import PageCollector
 from graphrecon.events.event_bus import EventBus
+from graphrecon.storage.storage_manager import StorageManager
+from graphrecon.utils.logger import logger
 
 
 class Runtime:
@@ -14,6 +16,8 @@ class Runtime:
         self.browser = BrowserManager(self.event_bus)
 
         self.page_collector = PageCollector(self.event_bus)
+
+        self.storage = StorageManager()
 
         self.page_collector.register()
 
@@ -29,3 +33,16 @@ class Runtime:
 
         finally:
             self.browser.stop()
+
+        self.storage.save_pages(
+            self.page_collector.pages,
+        )
+
+        self.storage.save_metadata(
+            url,
+        )
+
+        logger.info(
+            "Scan saved to %s",
+            self.storage.scan_dir,
+        )
