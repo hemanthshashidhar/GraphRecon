@@ -8,6 +8,7 @@ from playwright.sync_api import (
     sync_playwright,
 )
 
+from graphrecon.browser.event_handlers import BrowserEventHandlers
 from graphrecon.config.settings import settings
 from graphrecon.events.event_bus import EventBus
 from graphrecon.utils.logger import logger
@@ -15,15 +16,7 @@ from graphrecon.utils.logger import logger
 
 class BrowserManager:
     """
-    Responsible for the browser lifecycle.
-
-    This class owns:
-    - Playwright
-    - Browser
-    - Browser Context
-    - Page
-
-    It does NOT perform crawling or data collection.
+    Browser lifecycle manager.
     """
 
     def __init__(self, event_bus: EventBus) -> None:
@@ -35,10 +28,6 @@ class BrowserManager:
         self._page: Page | None = None
 
     def start(self) -> None:
-        """
-        Launch Playwright and Chromium.
-        """
-
         logger.info("Starting Playwright...")
 
         self._playwright = sync_playwright().start()
@@ -51,13 +40,14 @@ class BrowserManager:
 
         self._page = self._context.new_page()
 
+        BrowserEventHandlers(
+            page=self._page,
+            bus=self.event_bus,
+        ).register()
+
         logger.info("Browser started.")
 
     def open(self, url: str) -> None:
-        """
-        Open a URL.
-        """
-
         if self._page is None:
             raise RuntimeError("Browser has not been started.")
 
@@ -78,19 +68,15 @@ class BrowserManager:
         return self._page
 
     def stop(self) -> None:
-        """
-        Close all browser resources.
-        """
-
         logger.info("Closing browser...")
 
-        if self._context is not None:
+        if self._context:
             self._context.close()
 
-        if self._browser is not None:
+        if self._browser:
             self._browser.close()
 
-        if self._playwright is not None:
+        if self._playwright:
             self._playwright.stop()
 
         logger.info("Browser closed.")
