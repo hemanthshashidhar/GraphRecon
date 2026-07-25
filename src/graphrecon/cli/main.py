@@ -1,6 +1,9 @@
 import typer
 from rich.console import Console
 
+from graphrecon.constants import APP_NAME, VERSION
+from graphrecon.utils.logger import logger
+
 console = Console()
 
 app = typer.Typer(
@@ -12,10 +15,7 @@ app = typer.Typer(
 
 @app.callback()
 def main() -> None:
-    """
-    GraphRecon CLI.
-    """
-    pass
+    """GraphRecon CLI."""
 
 
 @app.command()
@@ -23,5 +23,10 @@ def version() -> None:
     """
     Show GraphRecon version.
     """
-    console.print("[bold cyan]GraphRecon[/bold cyan]")
-    console.print("Version: 0.1.0")
+    logger.info("Displaying version information")
+    console.print(f"[bold cyan]{APP_NAME}[/bold cyan]")
+    console.print(f"Version: {VERSION}")
+
+
+if __name__ == "__main__":
+    app()
