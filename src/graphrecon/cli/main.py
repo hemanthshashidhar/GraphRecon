@@ -1,7 +1,9 @@
 import typer
 from rich.console import Console
 
+from graphrecon.browser.browser_manager import BrowserManager
 from graphrecon.constants import APP_NAME, VERSION
+from graphrecon.events.event_bus import EventBus
 from graphrecon.utils.logger import logger
 
 console = Console()
@@ -20,13 +22,16 @@ def main() -> None:
 
 @app.command()
 def version() -> None:
-    """
-    Show GraphRecon version.
-    """
     logger.info("Displaying version information")
     console.print(f"[bold cyan]{APP_NAME}[/bold cyan]")
     console.print(f"Version: {VERSION}")
 
 
-if __name__ == "__main__":
-    app()
+@app.command()
+def scan(url: str) -> None:
+
+    bus = EventBus()
+
+    browser = BrowserManager(bus)
+
+    browser.open(url)
