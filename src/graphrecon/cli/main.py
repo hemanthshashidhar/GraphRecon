@@ -1,9 +1,8 @@
 import typer
 from rich.console import Console
 
-from graphrecon.browser.browser_manager import BrowserManager
 from graphrecon.constants import APP_NAME, VERSION
-from graphrecon.events.event_bus import EventBus
+from graphrecon.runtime.runtime import Runtime
 from graphrecon.utils.logger import logger
 
 console = Console()
@@ -29,9 +28,12 @@ def version() -> None:
 
 @app.command()
 def scan(url: str) -> None:
+    """
+    Scan a website.
+    """
+    runtime = Runtime()
+    runtime.scan(url)
 
-    bus = EventBus()
 
-    browser = BrowserManager(bus)
-
-    browser.open(url)
+if __name__ == "__main__":
+    app()
