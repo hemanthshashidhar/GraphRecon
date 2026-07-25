@@ -7,6 +7,7 @@ import orjson
 
 from graphrecon.models.page import PageModel
 from graphrecon.models.request import RequestModel
+from graphrecon.models.response import ResponseModel
 
 
 class StorageManager:
@@ -19,10 +20,7 @@ class StorageManager:
 
         self.scan_dir = Path(".scans") / timestamp
 
-        self.scan_dir.mkdir(
-            parents=True,
-            exist_ok=True,
-        )
+        self.scan_dir.mkdir(parents=True, exist_ok=True)
 
     def _write_json(self, filename: str, data: object) -> None:
         output = self.scan_dir / filename
@@ -34,16 +32,10 @@ class StorageManager:
             )
         )
 
-    def save_pages(
-        self,
-        pages: list[PageModel],
-    ) -> None:
+    def save_pages(self, pages: list[PageModel]) -> None:
         self._write_json(
             "pages.json",
-            [
-                page.model_dump()
-                for page in pages
-            ],
+            [page.model_dump() for page in pages],
         )
 
     def save_requests(
@@ -52,10 +44,16 @@ class StorageManager:
     ) -> None:
         self._write_json(
             "requests.json",
-            [
-                request.model_dump()
-                for request in requests
-            ],
+            [request.model_dump() for request in requests],
+        )
+
+    def save_responses(
+        self,
+        responses: list[ResponseModel],
+    ) -> None:
+        self._write_json(
+            "responses.json",
+            [response.model_dump() for response in responses],
         )
 
     def save_metadata(
