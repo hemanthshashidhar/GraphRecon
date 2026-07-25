@@ -23,5 +23,9 @@ class Runtime:
         try:
             self.browser.open(url)
 
+            self.page_collector.collect_page(
+                self.browser.page,
+            )
+
         finally:
             self.browser.stop()
