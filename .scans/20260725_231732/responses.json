@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://example.com/",
+    "status": 200,
+    "status_text": "",
+    "resource_type": "document",
+    "headers": {
+      "age": "51",
+      "allow": "GET, HEAD",
+      "cf-cache-status": "HIT",
+      "cf-ray": "a20cfd91398beccd-BOM",
+      "content-encoding": "br",
+      "content-type": "text/html",
+      "date": "Sat, 25 Jul 2026 17:47:33 GMT",
+      "last-modified": "Mon, 20 Jul 2026 07:16:20 GMT",
+      "server": "cloudflare"
+    },
+    "ok": true
+  }
+]

@@ -7,14 +7,11 @@ import orjson
 
 from graphrecon.models.page import PageModel
 from graphrecon.models.request import RequestModel
+from graphrecon.models.resource import ResourceModel
 from graphrecon.models.response import ResponseModel
 
 
 class StorageManager:
-    """
-    Handles scan output on disk.
-    """
-
     def __init__(self) -> None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -38,28 +35,25 @@ class StorageManager:
             [page.model_dump() for page in pages],
         )
 
-    def save_requests(
-        self,
-        requests: list[RequestModel],
-    ) -> None:
+    def save_requests(self, requests: list[RequestModel]) -> None:
         self._write_json(
             "requests.json",
             [request.model_dump() for request in requests],
         )
 
-    def save_responses(
-        self,
-        responses: list[ResponseModel],
-    ) -> None:
+    def save_responses(self, responses: list[ResponseModel]) -> None:
         self._write_json(
             "responses.json",
             [response.model_dump() for response in responses],
         )
 
-    def save_metadata(
-        self,
-        target: str,
-    ) -> None:
+    def save_resources(self, resources: list[ResourceModel]) -> None:
+        self._write_json(
+            "resources.json",
+            [resource.model_dump() for resource in resources],
+        )
+
+    def save_metadata(self, target: str) -> None:
         self._write_json(
             "metadata.json",
             {
