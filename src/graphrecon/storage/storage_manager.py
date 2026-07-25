@@ -5,6 +5,7 @@ from pathlib import Path
 
 import orjson
 
+from graphrecon.models.domain import DomainModel
 from graphrecon.models.edge import EdgeModel
 from graphrecon.models.node import NodeModel
 from graphrecon.models.page import PageModel
@@ -14,15 +15,20 @@ from graphrecon.models.response import ResponseModel
 
 
 class StorageManager:
+    """
+    Handles scan output on disk.
+    """
+
     def __init__(self) -> None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
         self.scan_dir = Path(".scans") / timestamp
-
         self.scan_dir.mkdir(parents=True, exist_ok=True)
 
     def _write_json(self, filename: str, data: object) -> None:
-        (self.scan_dir / filename).write_bytes(
+        output = self.scan_dir / filename
+
+        output.write_bytes(
             orjson.dumps(
                 data,
                 option=orjson.OPT_INDENT_2,
@@ -38,19 +44,25 @@ class StorageManager:
     def save_requests(self, requests: list[RequestModel]) -> None:
         self._write_json(
             "requests.json",
-            [r.model_dump() for r in requests],
+            [request.model_dump() for request in requests],
         )
 
     def save_responses(self, responses: list[ResponseModel]) -> None:
         self._write_json(
             "responses.json",
-            [r.model_dump() for r in responses],
+            [response.model_dump() for response in responses],
         )
 
     def save_resources(self, resources: list[ResourceModel]) -> None:
         self._write_json(
             "resources.json",
-            [r.model_dump() for r in resources],
+            [resource.model_dump() for resource in resources],
+        )
+
+    def save_domains(self, domains: list[DomainModel]) -> None:
+        self._write_json(
+            "domains.json",
+            [domain.model_dump() for domain in domains],
         )
 
     def save_graph(
@@ -58,18 +70,11 @@ class StorageManager:
         nodes: list[NodeModel],
         edges: list[EdgeModel],
     ) -> None:
-
         self._write_json(
             "graph.json",
             {
-                "nodes": [
-                    node.model_dump()
-                    for node in nodes
-                ],
-                "edges": [
-                    edge.model_dump()
-                    for edge in edges
-                ],
+                "nodes": [node.model_dump() for node in nodes],
+                "edges": [edge.model_dump() for edge in edges],
             },
         )
 
