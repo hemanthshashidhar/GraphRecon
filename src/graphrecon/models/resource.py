@@ -3,7 +3,7 @@ from graphrecon.models.base import GraphReconBaseModel
 
 class ResourceModel(GraphReconBaseModel):
     """
-    Represents one loaded resource.
+    Represents a loaded browser resource.
     """
 
     url: str
@@ -19,6 +19,8 @@ class ResourceModel(GraphReconBaseModel):
     scheme: str
 
     resource_type: str
+
+    category: str
 
     content_type: str | None = None
 
