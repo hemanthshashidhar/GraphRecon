@@ -5,6 +5,8 @@ from pathlib import Path
 
 import orjson
 
+from graphrecon.models.edge import EdgeModel
+from graphrecon.models.node import NodeModel
 from graphrecon.models.page import PageModel
 from graphrecon.models.request import RequestModel
 from graphrecon.models.resource import ResourceModel
@@ -20,9 +22,7 @@ class StorageManager:
         self.scan_dir.mkdir(parents=True, exist_ok=True)
 
     def _write_json(self, filename: str, data: object) -> None:
-        output = self.scan_dir / filename
-
-        output.write_bytes(
+        (self.scan_dir / filename).write_bytes(
             orjson.dumps(
                 data,
                 option=orjson.OPT_INDENT_2,
@@ -38,19 +38,39 @@ class StorageManager:
     def save_requests(self, requests: list[RequestModel]) -> None:
         self._write_json(
             "requests.json",
-            [request.model_dump() for request in requests],
+            [r.model_dump() for r in requests],
         )
 
     def save_responses(self, responses: list[ResponseModel]) -> None:
         self._write_json(
             "responses.json",
-            [response.model_dump() for response in responses],
+            [r.model_dump() for r in responses],
         )
 
     def save_resources(self, resources: list[ResourceModel]) -> None:
         self._write_json(
             "resources.json",
-            [resource.model_dump() for resource in resources],
+            [r.model_dump() for r in resources],
+        )
+
+    def save_graph(
+        self,
+        nodes: list[NodeModel],
+        edges: list[EdgeModel],
+    ) -> None:
+
+        self._write_json(
+            "graph.json",
+            {
+                "nodes": [
+                    node.model_dump()
+                    for node in nodes
+                ],
+                "edges": [
+                    edge.model_dump()
+                    for edge in edges
+                ],
+            },
         )
 
     def save_metadata(self, target: str) -> None:

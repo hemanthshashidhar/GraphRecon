@@ -4,6 +4,7 @@ from graphrecon.collectors.request.request_collector import RequestCollector
 from graphrecon.collectors.resource.resource_collector import ResourceCollector
 from graphrecon.collectors.response.response_collector import ResponseCollector
 from graphrecon.events.event_bus import EventBus
+from graphrecon.graph.graph_builder import GraphBuilder
 from graphrecon.storage.storage_manager import StorageManager
 from graphrecon.utils.logger import logger
 
@@ -24,12 +25,15 @@ class Runtime:
 
         self.storage = StorageManager()
 
+        self.graph_builder = GraphBuilder()
+
         self.page_collector.register()
         self.request_collector.register()
         self.response_collector.register()
         self.resource_collector.register()
 
     def scan(self, url: str) -> None:
+
         self.resource_collector.set_target(url)
 
         self.browser.start()
@@ -44,11 +48,23 @@ class Runtime:
         finally:
             self.browser.stop()
 
+        nodes, edges = self.graph_builder.build(
+            self.page_collector.pages,
+            self.resource_collector.resources,
+        )
+
         self.storage.save_pages(self.page_collector.pages)
         self.storage.save_requests(self.request_collector.requests)
         self.storage.save_responses(self.response_collector.responses)
         self.storage.save_resources(self.resource_collector.resources)
+        self.storage.save_graph(nodes, edges)
         self.storage.save_metadata(url)
+
+        logger.info(
+            "Graph: %d nodes, %d edges",
+            len(nodes),
+            len(edges),
+        )
 
         logger.info(
             "Scan saved to %s",

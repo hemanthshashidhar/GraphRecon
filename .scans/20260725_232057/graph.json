@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {
+      "id": "https://example.com/",
+      "type": "page",
+      "label": "Example Domain"
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://example.com/",
+      "target": "https://example.com/",
+      "relationship": "loads"
+    }
+  ]
+}

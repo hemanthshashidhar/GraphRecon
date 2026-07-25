@@ -1,0 +1,9 @@
+[
+  {
+    "url": "https://example.com/",
+    "domain": "example.com",
+    "resource_type": "document",
+    "content_type": "text/html",
+    "third_party": false
+  }
+]
