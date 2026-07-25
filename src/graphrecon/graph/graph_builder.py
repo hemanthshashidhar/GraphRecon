@@ -4,9 +4,15 @@ from graphrecon.models.page import PageModel
 from graphrecon.models.resource import ResourceModel
 
 
+IGNORED_RESOURCE_TYPES = {
+    "document",
+    "favicon",
+}
+
+
 class GraphBuilder:
     """
-    Builds a dependency graph from collected models.
+    Builds the dependency graph.
     """
 
     def build(
@@ -19,7 +25,7 @@ class GraphBuilder:
 
         edges: list[EdgeModel] = []
 
-        seen_nodes: set[str] = set()
+        node_ids: set[str] = set()
 
         if not pages:
             return nodes, edges
@@ -36,28 +42,29 @@ class GraphBuilder:
             )
         )
 
-        seen_nodes.add(page_id)
+        node_ids.add(page_id)
 
         for resource in resources:
 
-            resource_id = resource.url
+            if resource.resource_type in IGNORED_RESOURCE_TYPES:
+                continue
 
-            if resource_id not in seen_nodes:
+            if resource.url not in node_ids:
 
                 nodes.append(
                     NodeModel(
-                        id=resource_id,
+                        id=resource.url,
                         type=resource.resource_type,
                         label=resource.url,
                     )
                 )
 
-                seen_nodes.add(resource_id)
+                node_ids.add(resource.url)
 
             edges.append(
                 EdgeModel(
                     source=page_id,
-                    target=resource_id,
+                    target=resource.url,
                     relationship="loads",
                 )
             )

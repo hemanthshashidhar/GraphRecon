@@ -1,0 +1,1066 @@
+[
+  {
+    "url": "https://github.com/",
+    "domain": "github.com",
+    "resource_type": "document",
+    "content_type": "text/html; charset=utf-8",
+    "third_party": false
+  },
+  {
+    "url": "https://github.githubassets.com/assets/dark_high_contrast-6739a26cef6aaf8e.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/dark-f3311053b052c5d4.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/light-62b06818b06b09b7.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/primer-bb3e7caff8347285.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/primer-primitives-ac2f4b33720c6312.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/global-1832d803adebd2b4.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/home-9b7c451c90b8cd38.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/landing-pages-44288f2c24a4c584.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/site-2d78c5de4a31d86e.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/github-cf976967feea1e66.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/app-runtime.a596275b6d2beaf5.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/react-core.e7eb59fdde3d4b7e.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/primer-react-css.98ad1672d1ed9f02.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/primer-react-brand-css.0cc680e6bbf87b2a.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/11446.f8bd8864d31ee98a.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/landing-pages.01721ae738e62944.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.9e064a66c0cb8c51.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-global-banner.9f88c85c7874c574.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/high-contrast-cookie-9d73b8ae1abef9dc.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/fetch-utilities-c15f4a0ba1130fd4.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/app-foundation-b0a3176b6b91e784.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/78205-75aff589688e0be2.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/element-registry-4d39bd69f100eef8.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/environment-31120210e0dec4de.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/catalyst-03fc2ee1b163e4cb.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/relative-time-element-dfbe05d051d2745a.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/296-cddf2922ea3a416c.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/816-29b762091e5033a9.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/65637-e357a8be37eda955.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-navigation.c25e8c325356a771.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-footer.bd56444614427f11.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/31721-903cd2b317a8cc03.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/46740-0a6e4901e467cc61.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/github-elements-3870415b1b377827.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/aria-live-f89426702b2d1650.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/hotkey-18e2cf4c6aadb3ff.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/global-banner-disable-746737b0f4a6c543.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/wp-runtime-bb3167a3844ae3b7.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/app-runtime-3a9592c6c49c3caa.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/91445-6f5c449d48bb47ab.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/79039-9238f8fd47d74629.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/88475-e7c45daacb58e0a3.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/50841-f6411d024525940b.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/3609-2a17d1c3e2ce7fe5.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/MonaSansVF-wdth-wght-opsz-902d64c7ad02.woff2",
+    "domain": "github.githubassets.com",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/react-core-0f20bad46ba8cead.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/26533-36c85461b011ffd5.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/17430-e901a0f85324c01f.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/40489-1cb4158300f5cf11.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/85720-fc27301ab71403cf.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/29863-48ad2609b0f83022.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/6059-001e1b0cb00e4a0b.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/24061-55c5ea4be30ab4b5.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/react-lib-a79e0802ead09943.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-essentials-e6607d3d6713e3b0.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/45214-b2843ba6c3914619.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/68751-ce203b06ab59e9ad.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/53351-c7a0796f923dc77c.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/43952-7629a3dee4ba4e75.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/41417-e5f34e79771a0cdf.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/45442-b327590372cd76ea.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/58636-41d4f2f256c79ec9.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/behaviors-05974eabdba6c1d6.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/71236-18053476e03a7169.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/87954-5ad39f05ee52ce83.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/68069-fecb0d08ce35b25a.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/primer-react-a5811f9df176137a.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/octicons-react-0f7aabd2961515ac.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/82021-4460ec796b137908.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/97323-61c226f3bcea5707.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/43831-dc84a42aeaa457be.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/48761-7383981d93a093b6.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/91951-812fd961692020dd.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/70666-774087b76d27f9f3.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/40067-e293d18f429a53fa.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/71192-87b68d371daccae0.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/26194-4de6887bb62715e7.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/6948-d8d271af8f66ba88.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/65097-14897a183891e3f1.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/87649-e01f866c83be57d5.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/95297-b344baf60a00e14a.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/64670-754a2dd94b7cfb79.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/28891-b356e83f80a8a180.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/99251-256d2b20a40b194b.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/47166-2b46d439e854f735.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/11446-20251f882a520c35.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/27070-08c3219fefbb6ece.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/62684-52cd14c4a288396a.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog-e90e237c9e705097.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/4871-d4c66be5b6789608.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/66749-832274837a11ed6b.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-global-banner-437e05d8e0b40ec0.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/sessions-8b67eb45b8777041.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/40871-68f79becf16b4868.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-navigation-ece1017251744ddd.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/marketing-footer-7c30f1c87c3e7727.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/98343-efb47ab65b6fd3bf.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/landing-pages-d1d4d106367b945d.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/MonaSansMonoVF-wght-04a1e3036ddf.woff2",
+    "domain": "github.githubassets.com",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/particles-170bd1fd231f4669.png",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/png",
+    "third_party": true
+  },
+  {
+    "url": "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp",
+    "domain": "images.ctfassets.net",
+    "resource_type": "image",
+    "content_type": "image/webp",
+    "third_party": true
+  },
+  {
+    "url": "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp",
+    "domain": "images.ctfassets.net",
+    "resource_type": "image",
+    "content_type": "image/webp",
+    "third_party": true
+  },
+  {
+    "url": "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp",
+    "domain": "images.ctfassets.net",
+    "resource_type": "image",
+    "content_type": "image/webp",
+    "third_party": true
+  },
+  {
+    "url": "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg",
+    "domain": "images.ctfassets.net",
+    "resource_type": "image",
+    "content_type": "image/svg+xml",
+    "third_party": true
+  },
+  {
+    "url": "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp",
+    "domain": "images.ctfassets.net",
+    "resource_type": "image",
+    "content_type": "image/webp",
+    "third_party": true
+  },
+  {
+    "url": "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg",
+    "domain": "images.ctfassets.net",
+    "resource_type": "image",
+    "content_type": "image/svg+xml",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/38963.f9ae8bf4d28d4bfd.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/7309.392c50c9eaaf6e46.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/37220.1bbc47baffd9cfb8.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/70168.72ac012d6b4f91e3.module.css",
+    "domain": "github.githubassets.com",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-26031-2dba7d882b95649b.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-select-panel-807c32c101c6ce95.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-toggle-switch-e24ee00c8ecfc50e.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-custom-scopes-82070afdec87c030.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/44391-bce4cf11b6eff80c.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/6627-80a5ccb752cd4f64.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/85736-8a75fdce27024c9a.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-cookie-consent-link-e75330754445ca1c.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-fullstory-capture-76c9c41fda53281f.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-2444-46cd6ace512c7622.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-ghcc-consent-80183c446c5e913f.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-query-builder-89bbf3c616c98085.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-qbsearch-input-87eca550899d4526.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-react-partial-keyboard-shortcuts-dialog-25ee82375c90762e.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-element-webauthn-get-910ad117ec55c277.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-lazy-react-partial-marketing-navigation-9b1285958f7c48f9.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-79659-cf242770a1729112.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/17567-127a8221a445bc41.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/mascot-7c495cf9822e0d5c.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/cat_eye-75fdf7af6c5dc157.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/star-9663b0f4de9d12b1.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/head_sss-29270cf59da664ea.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/eye_color-bb27e609004c77cc.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/eye_sss-8e43fcedfb9ddaf9.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/body_sss-ecb11ff73d84fd3b.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/head_sss-b7e053d8d541a414.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/shield_sss-b8d96cf3572b780d.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/shield_diffuse-41b84e036ea43614.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/shield_blur-bd197c0b02963d75.jpg",
+    "domain": "github.githubassets.com",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/duck-b3412913788eaa25.glb",
+    "domain": "github.githubassets.com",
+    "resource_type": "fetch",
+    "content_type": "model/gltf-binary",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/cat-53c4522f687c1719.glb",
+    "domain": "github.githubassets.com",
+    "resource_type": "fetch",
+    "content_type": "model/gltf-binary",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/copilot-2addefe0e666acf2.glb",
+    "domain": "github.githubassets.com",
+    "resource_type": "fetch",
+    "content_type": "model/gltf-binary",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/shield-99c76cd962f04df2.glb",
+    "domain": "github.githubassets.com",
+    "resource_type": "fetch",
+    "content_type": "model/gltf-binary",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-20039-85632bfa66b59b85.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-68918-aed30b59eecbdcdc.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/code-1_desktop-6d44c7cb53b4aebb.mp4",
+    "domain": "github.githubassets.com",
+    "resource_type": "media",
+    "content_type": "video/mp4",
+    "third_party": true
+  },
+  {
+    "url": "https://github.githubassets.com/assets/chunk-45770-ced4ff639b4bd597.js",
+    "domain": "github.githubassets.com",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "third_party": true
+  },
+  {
+    "url": "https://collector.github.com/github/collect",
+    "domain": "collector.github.com",
+    "resource_type": "ping",
+    "content_type": null,
+    "third_party": true
+  }
+]
