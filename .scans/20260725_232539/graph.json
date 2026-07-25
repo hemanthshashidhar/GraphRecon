@@ -1,0 +1,1301 @@
+{
+  "nodes": [
+    {
+      "id": "https://github.com/",
+      "type": "page",
+      "label": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/light-62b06818b06b09b7.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/light-62b06818b06b09b7.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/dark-f3311053b052c5d4.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/dark-f3311053b052c5d4.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/dark_high_contrast-6739a26cef6aaf8e.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/dark_high_contrast-6739a26cef6aaf8e.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/app-runtime.a596275b6d2beaf5.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/app-runtime.a596275b6d2beaf5.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/primer-primitives-ac2f4b33720c6312.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/primer-primitives-ac2f4b33720c6312.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/primer-bb3e7caff8347285.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/primer-bb3e7caff8347285.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/global-1832d803adebd2b4.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/global-1832d803adebd2b4.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/github-cf976967feea1e66.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/github-cf976967feea1e66.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/site-2d78c5de4a31d86e.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/site-2d78c5de4a31d86e.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/landing-pages-44288f2c24a4c584.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/landing-pages-44288f2c24a4c584.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/home-9b7c451c90b8cd38.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/home-9b7c451c90b8cd38.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/react-core.e7eb59fdde3d4b7e.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/react-core.e7eb59fdde3d4b7e.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/primer-react-css.98ad1672d1ed9f02.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/primer-react-css.98ad1672d1ed9f02.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/primer-react-brand-css.0cc680e6bbf87b2a.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/primer-react-brand-css.0cc680e6bbf87b2a.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/11446.f8bd8864d31ee98a.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/11446.f8bd8864d31ee98a.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/landing-pages.01721ae738e62944.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/landing-pages.01721ae738e62944.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.9e064a66c0cb8c51.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.9e064a66c0cb8c51.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-navigation.c25e8c325356a771.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/marketing-navigation.c25e8c325356a771.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-global-banner.9f88c85c7874c574.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/marketing-global-banner.9f88c85c7874c574.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-footer.bd56444614427f11.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/marketing-footer.bd56444614427f11.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/MonaSansVF-wdth-wght-opsz-902d64c7ad02.woff2",
+      "type": "font",
+      "label": "https://github.githubassets.com/assets/MonaSansVF-wdth-wght-opsz-902d64c7ad02.woff2"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/high-contrast-cookie-9d73b8ae1abef9dc.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/high-contrast-cookie-9d73b8ae1abef9dc.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/fetch-utilities-c15f4a0ba1130fd4.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/fetch-utilities-c15f4a0ba1130fd4.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/app-foundation-b0a3176b6b91e784.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/app-foundation-b0a3176b6b91e784.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/catalyst-03fc2ee1b163e4cb.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/catalyst-03fc2ee1b163e4cb.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/environment-31120210e0dec4de.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/environment-31120210e0dec4de.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/78205-75aff589688e0be2.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/78205-75aff589688e0be2.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/relative-time-element-dfbe05d051d2745a.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/relative-time-element-dfbe05d051d2745a.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/app-runtime-3a9592c6c49c3caa.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/app-runtime-3a9592c6c49c3caa.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/wp-runtime-bb3167a3844ae3b7.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/wp-runtime-bb3167a3844ae3b7.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/296-cddf2922ea3a416c.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/296-cddf2922ea3a416c.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/816-29b762091e5033a9.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/816-29b762091e5033a9.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/65637-e357a8be37eda955.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/65637-e357a8be37eda955.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/31721-903cd2b317a8cc03.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/31721-903cd2b317a8cc03.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/github-elements-3870415b1b377827.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/github-elements-3870415b1b377827.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/46740-0a6e4901e467cc61.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/46740-0a6e4901e467cc61.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/aria-live-f89426702b2d1650.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/aria-live-f89426702b2d1650.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/91445-6f5c449d48bb47ab.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/91445-6f5c449d48bb47ab.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/hotkey-18e2cf4c6aadb3ff.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/hotkey-18e2cf4c6aadb3ff.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/element-registry-4d39bd69f100eef8.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/element-registry-4d39bd69f100eef8.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/50841-f6411d024525940b.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/50841-f6411d024525940b.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/88475-e7c45daacb58e0a3.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/88475-e7c45daacb58e0a3.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/79039-9238f8fd47d74629.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/79039-9238f8fd47d74629.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/3609-2a17d1c3e2ce7fe5.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/3609-2a17d1c3e2ce7fe5.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/26533-36c85461b011ffd5.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/26533-36c85461b011ffd5.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/17430-e901a0f85324c01f.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/17430-e901a0f85324c01f.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/40489-1cb4158300f5cf11.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/40489-1cb4158300f5cf11.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/85720-fc27301ab71403cf.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/85720-fc27301ab71403cf.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/6059-001e1b0cb00e4a0b.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/6059-001e1b0cb00e4a0b.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/29863-48ad2609b0f83022.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/29863-48ad2609b0f83022.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/24061-55c5ea4be30ab4b5.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/24061-55c5ea4be30ab4b5.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/45214-b2843ba6c3914619.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/45214-b2843ba6c3914619.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-essentials-e6607d3d6713e3b0.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/marketing-essentials-e6607d3d6713e3b0.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/68751-ce203b06ab59e9ad.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/68751-ce203b06ab59e9ad.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/react-core-0f20bad46ba8cead.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/react-core-0f20bad46ba8cead.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/53351-c7a0796f923dc77c.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/53351-c7a0796f923dc77c.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/react-lib-a79e0802ead09943.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/react-lib-a79e0802ead09943.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/behaviors-05974eabdba6c1d6.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/behaviors-05974eabdba6c1d6.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/41417-e5f34e79771a0cdf.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/41417-e5f34e79771a0cdf.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/43952-7629a3dee4ba4e75.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/43952-7629a3dee4ba4e75.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/45442-b327590372cd76ea.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/45442-b327590372cd76ea.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/58636-41d4f2f256c79ec9.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/58636-41d4f2f256c79ec9.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/87954-5ad39f05ee52ce83.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/87954-5ad39f05ee52ce83.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/71236-18053476e03a7169.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/71236-18053476e03a7169.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/43831-dc84a42aeaa457be.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/43831-dc84a42aeaa457be.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/97323-61c226f3bcea5707.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/97323-61c226f3bcea5707.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/68069-fecb0d08ce35b25a.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/68069-fecb0d08ce35b25a.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/70666-774087b76d27f9f3.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/70666-774087b76d27f9f3.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/6948-d8d271af8f66ba88.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/6948-d8d271af8f66ba88.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/octicons-react-0f7aabd2961515ac.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/octicons-react-0f7aabd2961515ac.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/47166-2b46d439e854f735.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/47166-2b46d439e854f735.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/48761-7383981d93a093b6.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/48761-7383981d93a093b6.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/40067-e293d18f429a53fa.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/40067-e293d18f429a53fa.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/71192-87b68d371daccae0.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/71192-87b68d371daccae0.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/26194-4de6887bb62715e7.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/26194-4de6887bb62715e7.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/64670-754a2dd94b7cfb79.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/64670-754a2dd94b7cfb79.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/primer-react-a5811f9df176137a.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/primer-react-a5811f9df176137a.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/65097-14897a183891e3f1.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/65097-14897a183891e3f1.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/87649-e01f866c83be57d5.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/87649-e01f866c83be57d5.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/95297-b344baf60a00e14a.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/95297-b344baf60a00e14a.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/82021-4460ec796b137908.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/82021-4460ec796b137908.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/91951-812fd961692020dd.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/91951-812fd961692020dd.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/28891-b356e83f80a8a180.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/28891-b356e83f80a8a180.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/99251-256d2b20a40b194b.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/99251-256d2b20a40b194b.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/11446-20251f882a520c35.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/11446-20251f882a520c35.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/62684-52cd14c4a288396a.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/62684-52cd14c4a288396a.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/27070-08c3219fefbb6ece.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/27070-08c3219fefbb6ece.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/4871-d4c66be5b6789608.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/4871-d4c66be5b6789608.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog-e90e237c9e705097.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog-e90e237c9e705097.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/sessions-8b67eb45b8777041.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/sessions-8b67eb45b8777041.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/global-banner-disable-746737b0f4a6c543.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/global-banner-disable-746737b0f4a6c543.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/98343-efb47ab65b6fd3bf.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/98343-efb47ab65b6fd3bf.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-footer-7c30f1c87c3e7727.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/marketing-footer-7c30f1c87c3e7727.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/66749-832274837a11ed6b.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/66749-832274837a11ed6b.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-global-banner-437e05d8e0b40ec0.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/marketing-global-banner-437e05d8e0b40ec0.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/40871-68f79becf16b4868.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/40871-68f79becf16b4868.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/marketing-navigation-ece1017251744ddd.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/marketing-navigation-ece1017251744ddd.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/landing-pages-d1d4d106367b945d.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/landing-pages-d1d4d106367b945d.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/MonaSansMonoVF-wght-04a1e3036ddf.woff2",
+      "type": "font",
+      "label": "https://github.githubassets.com/assets/MonaSansMonoVF-wght-04a1e3036ddf.woff2"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/particles-170bd1fd231f4669.png",
+      "type": "image",
+      "label": "https://github.githubassets.com/assets/particles-170bd1fd231f4669.png"
+    },
+    {
+      "id": "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp",
+      "type": "image",
+      "label": "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp"
+    },
+    {
+      "id": "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp",
+      "type": "image",
+      "label": "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp"
+    },
+    {
+      "id": "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp",
+      "type": "image",
+      "label": "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp"
+    },
+    {
+      "id": "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg",
+      "type": "image",
+      "label": "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg"
+    },
+    {
+      "id": "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg",
+      "type": "image",
+      "label": "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg"
+    },
+    {
+      "id": "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp",
+      "type": "image",
+      "label": "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/38963.f9ae8bf4d28d4bfd.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/38963.f9ae8bf4d28d4bfd.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/7309.392c50c9eaaf6e46.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/7309.392c50c9eaaf6e46.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/37220.1bbc47baffd9cfb8.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/37220.1bbc47baffd9cfb8.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/70168.72ac012d6b4f91e3.module.css",
+      "type": "stylesheet",
+      "label": "https://github.githubassets.com/assets/70168.72ac012d6b4f91e3.module.css"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-26031-2dba7d882b95649b.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-26031-2dba7d882b95649b.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-select-panel-807c32c101c6ce95.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-select-panel-807c32c101c6ce95.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-custom-scopes-82070afdec87c030.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-custom-scopes-82070afdec87c030.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-toggle-switch-e24ee00c8ecfc50e.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-toggle-switch-e24ee00c8ecfc50e.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/44391-bce4cf11b6eff80c.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/44391-bce4cf11b6eff80c.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/85736-8a75fdce27024c9a.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/85736-8a75fdce27024c9a.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-cookie-consent-link-e75330754445ca1c.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-cookie-consent-link-e75330754445ca1c.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-2444-46cd6ace512c7622.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-2444-46cd6ace512c7622.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-fullstory-capture-76c9c41fda53281f.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-fullstory-capture-76c9c41fda53281f.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-ghcc-consent-80183c446c5e913f.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-ghcc-consent-80183c446c5e913f.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-query-builder-89bbf3c616c98085.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-query-builder-89bbf3c616c98085.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-webauthn-get-910ad117ec55c277.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-webauthn-get-910ad117ec55c277.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-react-partial-keyboard-shortcuts-dialog-25ee82375c90762e.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-react-partial-keyboard-shortcuts-dialog-25ee82375c90762e.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-element-qbsearch-input-87eca550899d4526.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-element-qbsearch-input-87eca550899d4526.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/6627-80a5ccb752cd4f64.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/6627-80a5ccb752cd4f64.js"
+    },
+    {
+      "id": "https://github.githubassets.com/assets/chunk-lazy-react-partial-marketing-navigation-9b1285958f7c48f9.js",
+      "type": "script",
+      "label": "https://github.githubassets.com/assets/chunk-lazy-react-partial-marketing-navigation-9b1285958f7c48f9.js"
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/light_high_contrast-44cd405df9340c5c.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/light-62b06818b06b09b7.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/dark-f3311053b052c5d4.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/dark_high_contrast-6739a26cef6aaf8e.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/app-runtime.a596275b6d2beaf5.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/primer-primitives-ac2f4b33720c6312.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/primer-bb3e7caff8347285.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/global-1832d803adebd2b4.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/github-cf976967feea1e66.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/site-2d78c5de4a31d86e.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/landing-pages-44288f2c24a4c584.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/home-9b7c451c90b8cd38.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/react-core.e7eb59fdde3d4b7e.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/primer-react-css.98ad1672d1ed9f02.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/primer-react-brand-css.0cc680e6bbf87b2a.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/11446.f8bd8864d31ee98a.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/landing-pages.01721ae738e62944.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog.9e064a66c0cb8c51.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-navigation.c25e8c325356a771.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-global-banner.9f88c85c7874c574.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-footer.bd56444614427f11.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/MonaSansVF-wdth-wght-opsz-902d64c7ad02.woff2",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/high-contrast-cookie-9d73b8ae1abef9dc.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/fetch-utilities-c15f4a0ba1130fd4.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/app-foundation-b0a3176b6b91e784.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/catalyst-03fc2ee1b163e4cb.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/environment-31120210e0dec4de.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/selector-observer-31e911ea8e9046d3.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/78205-75aff589688e0be2.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/relative-time-element-dfbe05d051d2745a.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/app-runtime-3a9592c6c49c3caa.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/wp-runtime-bb3167a3844ae3b7.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/296-cddf2922ea3a416c.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/816-29b762091e5033a9.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/65637-e357a8be37eda955.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/31721-903cd2b317a8cc03.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/github-elements-3870415b1b377827.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/46740-0a6e4901e467cc61.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/aria-live-f89426702b2d1650.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/runtime-helpers-b5a5a1cee32a4b87.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/91445-6f5c449d48bb47ab.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/hotkey-18e2cf4c6aadb3ff.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/element-registry-4d39bd69f100eef8.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/50841-f6411d024525940b.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/88475-e7c45daacb58e0a3.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/79039-9238f8fd47d74629.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/3609-2a17d1c3e2ce7fe5.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/26533-36c85461b011ffd5.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/17430-e901a0f85324c01f.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/40489-1cb4158300f5cf11.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/85720-fc27301ab71403cf.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/6059-001e1b0cb00e4a0b.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/29863-48ad2609b0f83022.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/24061-55c5ea4be30ab4b5.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/45214-b2843ba6c3914619.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-essentials-e6607d3d6713e3b0.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/68751-ce203b06ab59e9ad.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/react-core-0f20bad46ba8cead.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/53351-c7a0796f923dc77c.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/react-lib-a79e0802ead09943.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/behaviors-05974eabdba6c1d6.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/41417-e5f34e79771a0cdf.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/43952-7629a3dee4ba4e75.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/45442-b327590372cd76ea.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/58636-41d4f2f256c79ec9.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/87954-5ad39f05ee52ce83.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/71236-18053476e03a7169.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/43831-dc84a42aeaa457be.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/97323-61c226f3bcea5707.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/68069-fecb0d08ce35b25a.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/70666-774087b76d27f9f3.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/6948-d8d271af8f66ba88.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/octicons-react-0f7aabd2961515ac.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/47166-2b46d439e854f735.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/48761-7383981d93a093b6.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/40067-e293d18f429a53fa.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/71192-87b68d371daccae0.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/26194-4de6887bb62715e7.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/64670-754a2dd94b7cfb79.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/primer-react-a5811f9df176137a.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/65097-14897a183891e3f1.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/87649-e01f866c83be57d5.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/95297-b344baf60a00e14a.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/82021-4460ec796b137908.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/91951-812fd961692020dd.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/28891-b356e83f80a8a180.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/99251-256d2b20a40b194b.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/11446-20251f882a520c35.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/62684-52cd14c4a288396a.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/27070-08c3219fefbb6ece.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/4871-d4c66be5b6789608.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/keyboard-shortcuts-dialog-e90e237c9e705097.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/sessions-8b67eb45b8777041.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/global-banner-disable-746737b0f4a6c543.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/98343-efb47ab65b6fd3bf.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-footer-7c30f1c87c3e7727.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/66749-832274837a11ed6b.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-global-banner-437e05d8e0b40ec0.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/40871-68f79becf16b4868.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/marketing-navigation-ece1017251744ddd.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/landing-pages-d1d4d106367b945d.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/MonaSansMonoVF-wght-04a1e3036ddf.woff2",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/particles-170bd1fd231f4669.png",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://images.ctfassets.net/8aevphvgewt8/3cgNgdKFqflI27vyDh4Gpa/c459dc8690133e7663b8db2626cf2045/accordion-4-a26744b70ff7.webp",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://images.ctfassets.net/8aevphvgewt8/3xzVZaJhqo3B62R8NeHjX2/e37c81e4f26e9dac2aff1f23a0243087/accordion-3-52ca331d22ea.webp",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://images.ctfassets.net/8aevphvgewt8/1uXZYDy7dMcH9QwxuAU06F/1cb167cc60d725b8cf7089faf9a4ed06/accordion-2-730955545f07.webp",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://images.ctfassets.net/8aevphvgewt8/6Qr8Snm4JceoMFRJhapgFa/802ded1d2c486a9d0a4c073d9f8f38f4/logo-gartner-aa8c2e452b64.svg",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://images.ctfassets.net/8aevphvgewt8/g1XhuDG7foMyNWIEIpGJj/b40a790b854d0803704deb7905b1bd82/logo-duolingo-14477f9e54a6.svg",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://images.ctfassets.net/8aevphvgewt8/1Dt1ncaR6ZM4dQvknFzfBI/e5c2092be5bd53881622eced4fd37564/accordion-1-ce487d44c0bf.webp",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/38963.f9ae8bf4d28d4bfd.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/7309.392c50c9eaaf6e46.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/37220.1bbc47baffd9cfb8.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/70168.72ac012d6b4f91e3.module.css",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-26031-2dba7d882b95649b.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-select-panel-807c32c101c6ce95.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-custom-scopes-82070afdec87c030.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-toggle-switch-e24ee00c8ecfc50e.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/44391-bce4cf11b6eff80c.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/85736-8a75fdce27024c9a.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-cookie-consent-link-e75330754445ca1c.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-2444-46cd6ace512c7622.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-fullstory-capture-76c9c41fda53281f.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-ghcc-consent-80183c446c5e913f.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-query-builder-89bbf3c616c98085.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-webauthn-get-910ad117ec55c277.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-react-partial-keyboard-shortcuts-dialog-25ee82375c90762e.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-element-qbsearch-input-87eca550899d4526.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/6627-80a5ccb752cd4f64.js",
+      "relationship": "loads"
+    },
+    {
+      "source": "https://github.com/",
+      "target": "https://github.githubassets.com/assets/chunk-lazy-react-partial-marketing-navigation-9b1285958f7c48f9.js",
+      "relationship": "loads"
+    }
+  ]
+}
