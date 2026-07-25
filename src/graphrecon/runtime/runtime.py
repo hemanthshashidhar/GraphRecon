@@ -15,4 +15,11 @@ class Runtime:
         """
         Execute a scan.
         """
-        self.browser.open(url)
+
+        self.browser.start()
+
+        try:
+            self.browser.open(url)
+
+        finally:
+            self.browser.stop()

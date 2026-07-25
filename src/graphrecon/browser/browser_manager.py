@@ -1,34 +1,96 @@
-from playwright.sync_api import sync_playwright
+from __future__ import annotations
 
+from playwright.sync_api import (
+    Browser,
+    BrowserContext,
+    Page,
+    Playwright,
+    sync_playwright,
+)
+
+from graphrecon.config.settings import settings
 from graphrecon.events.event_bus import EventBus
 from graphrecon.utils.logger import logger
 
 
 class BrowserManager:
+    """
+    Responsible for the browser lifecycle.
 
-    def __init__(self, bus: EventBus):
+    This class owns:
+    - Playwright
+    - Browser
+    - Browser Context
+    - Page
 
-        self.bus = bus
+    It does NOT perform crawling or data collection.
+    """
 
-    def open(self, url: str):
+    def __init__(self, event_bus: EventBus) -> None:
+        self.event_bus = event_bus
 
-        with sync_playwright() as playwright:
+        self._playwright: Playwright | None = None
+        self._browser: Browser | None = None
+        self._context: BrowserContext | None = None
+        self._page: Page | None = None
 
-            browser = playwright.chromium.launch(
-                headless=True,
-            )
+    def start(self) -> None:
+        """
+        Launch Playwright and Chromium.
+        """
 
-            context = browser.new_context()
+        logger.info("Starting Playwright...")
 
-            page = context.new_page()
+        self._playwright = sync_playwright().start()
 
-            page.goto(url)
+        self._browser = self._playwright.chromium.launch(
+            headless=settings.browser_headless,
+        )
 
-            logger.info("Loaded %s", page.url)
+        self._context = self._browser.new_context()
 
-            self.bus.emit(
-                "page.loaded",
-                page,
-            )
+        self._page = self._context.new_page()
 
-            browser.close()
+        logger.info("Browser started.")
+
+    def open(self, url: str) -> None:
+        """
+        Open a URL.
+        """
+
+        if self._page is None:
+            raise RuntimeError("Browser has not been started.")
+
+        logger.info("Opening %s", url)
+
+        self._page.goto(
+            url,
+            timeout=settings.timeout,
+            wait_until="networkidle",
+        )
+
+        logger.info("Loaded %s", self._page.url)
+
+    @property
+    def page(self) -> Page:
+        if self._page is None:
+            raise RuntimeError("Page not initialized.")
+        return self._page
+
+    def stop(self) -> None:
+        """
+        Close all browser resources.
+        """
+
+        logger.info("Closing browser...")
+
+        if self._context is not None:
+            self._context.close()
+
+        if self._browser is not None:
+            self._browser.close()
+
+        if self._playwright is not None:
+            self._playwright.stop()
+
+        logger.info("Browser closed.")
