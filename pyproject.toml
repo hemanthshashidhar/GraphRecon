@@ -12,6 +12,7 @@ dependencies = [
     "orjson",
     "playwright",
     "pydantic",
+    "pydantic-settings>=2.14.2",
     "rich",
     "typer",
 ]
