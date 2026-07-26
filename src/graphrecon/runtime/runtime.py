@@ -5,6 +5,7 @@ from graphrecon.collectors.page.page_collector import PageCollector
 from graphrecon.collectors.request.request_collector import RequestCollector
 from graphrecon.collectors.resource.resource_collector import ResourceCollector
 from graphrecon.collectors.response.response_collector import ResponseCollector
+from graphrecon.crawler.crawler import Crawler
 from graphrecon.events.event_bus import EventBus
 from graphrecon.graph.graph_builder import GraphBuilder
 from graphrecon.storage.storage_manager import StorageManager
@@ -25,6 +26,9 @@ class Runtime:
         self.domain_collector = DomainCollector()
         self.dom_collector = DOMCollector()
 
+        # Crawl up to 25 pages (change later from config)
+        self.crawler = Crawler(max_pages=25)
+
         self.storage = StorageManager()
         self.graph_builder = GraphBuilder()
 
@@ -38,14 +42,36 @@ class Runtime:
 
         self.browser.start()
 
+        dom_resources = []
+
         try:
-            self.browser.open(url)
-
-            self.page_collector.collect_page(self.browser.page)
-
-            dom_resources = self.dom_collector.collect(
+            discovered_pages = self.crawler.crawl(
                 self.browser.page,
+                url,
             )
+
+            logger.info(
+                "Discovered %d pages",
+                len(discovered_pages),
+            )
+
+            # Collect page information
+            for page_url in discovered_pages:
+
+                self.browser.page.goto(
+                    page_url,
+                    wait_until="networkidle",
+                )
+
+                self.page_collector.collect_page(
+                    self.browser.page,
+                )
+
+                dom_resources.extend(
+                    self.dom_collector.collect(
+                        self.browser.page,
+                    )
+                )
 
         finally:
             self.browser.stop()
@@ -70,7 +96,12 @@ class Runtime:
         self.storage.save_metadata(url)
 
         logger.info(
-            "DOM dependencies discovered: %d",
+            "Pages crawled: %d",
+            len(discovered_pages),
+        )
+
+        logger.info(
+            "DOM resources: %d",
             len(dom_resources),
         )
 
