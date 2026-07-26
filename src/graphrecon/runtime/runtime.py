@@ -41,9 +41,7 @@ class Runtime:
         try:
             self.browser.open(url)
 
-            self.page_collector.collect_page(
-                self.browser.page,
-            )
+            self.page_collector.collect_page(self.browser.page)
 
             dom_resources = self.dom_collector.collect(
                 self.browser.page,
@@ -55,6 +53,7 @@ class Runtime:
         nodes, edges = self.graph_builder.build(
             self.page_collector.pages,
             self.resource_collector.resources,
+            dom_resources,
         )
 
         domains = self.domain_collector.collect(

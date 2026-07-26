@@ -1,3 +1,4 @@
+from graphrecon.models.dom import DOMResourceModel
 from graphrecon.models.edge import EdgeModel
 from graphrecon.models.node import NodeModel
 from graphrecon.models.page import PageModel
@@ -12,13 +13,14 @@ IGNORED_RESOURCE_TYPES = {
 
 class GraphBuilder:
     """
-    Builds the dependency graph.
+    Builds the dependency graph using DOM relationships whenever possible.
     """
 
     def build(
         self,
         pages: list[PageModel],
         resources: list[ResourceModel],
+        dom_resources: list[DOMResourceModel],
     ) -> tuple[list[NodeModel], list[EdgeModel]]:
 
         nodes: list[NodeModel] = []
@@ -44,7 +46,17 @@ class GraphBuilder:
 
         node_ids.add(page_id)
 
-        for resource in resources:
+        resource_lookup = {
+            resource.url: resource
+            for resource in resources
+        }
+
+        for dom in dom_resources:
+
+            resource = resource_lookup.get(dom.value)
+
+            if resource is None:
+                continue
 
             if resource.resource_type in IGNORED_RESOURCE_TYPES:
                 continue
@@ -54,8 +66,9 @@ class GraphBuilder:
                 nodes.append(
                     NodeModel(
                         id=resource.url,
-                        type=resource.resource_type,
-                        label=resource.url,
+                        type=resource.category,
+                        label=resource.filename
+                        or resource.url,
                     )
                 )
 
@@ -65,7 +78,7 @@ class GraphBuilder:
                 EdgeModel(
                     source=page_id,
                     target=resource.url,
-                    relationship="loads",
+                    relationship=dom.tag,
                 )
             )
 
