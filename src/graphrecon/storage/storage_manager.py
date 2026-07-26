@@ -5,6 +5,7 @@ from pathlib import Path
 
 import orjson
 
+from graphrecon.models.dom import DOMResourceModel
 from graphrecon.models.domain import DomainModel
 from graphrecon.models.edge import EdgeModel
 from graphrecon.models.node import NodeModel
@@ -15,10 +16,6 @@ from graphrecon.models.response import ResponseModel
 
 
 class StorageManager:
-    """
-    Handles scan output on disk.
-    """
-
     def __init__(self) -> None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -26,9 +23,7 @@ class StorageManager:
         self.scan_dir.mkdir(parents=True, exist_ok=True)
 
     def _write_json(self, filename: str, data: object) -> None:
-        output = self.scan_dir / filename
-
-        output.write_bytes(
+        (self.scan_dir / filename).write_bytes(
             orjson.dumps(
                 data,
                 option=orjson.OPT_INDENT_2,
@@ -36,33 +31,27 @@ class StorageManager:
         )
 
     def save_pages(self, pages: list[PageModel]) -> None:
-        self._write_json(
-            "pages.json",
-            [page.model_dump() for page in pages],
-        )
+        self._write_json("pages.json", [p.model_dump() for p in pages])
 
     def save_requests(self, requests: list[RequestModel]) -> None:
-        self._write_json(
-            "requests.json",
-            [request.model_dump() for request in requests],
-        )
+        self._write_json("requests.json", [r.model_dump() for r in requests])
 
     def save_responses(self, responses: list[ResponseModel]) -> None:
-        self._write_json(
-            "responses.json",
-            [response.model_dump() for response in responses],
-        )
+        self._write_json("responses.json", [r.model_dump() for r in responses])
 
     def save_resources(self, resources: list[ResourceModel]) -> None:
-        self._write_json(
-            "resources.json",
-            [resource.model_dump() for resource in resources],
-        )
+        self._write_json("resources.json", [r.model_dump() for r in resources])
 
     def save_domains(self, domains: list[DomainModel]) -> None:
+        self._write_json("domains.json", [d.model_dump() for d in domains])
+
+    def save_dom_resources(
+        self,
+        resources: list[DOMResourceModel],
+    ) -> None:
         self._write_json(
-            "domains.json",
-            [domain.model_dump() for domain in domains],
+            "dom_resources.json",
+            [r.model_dump() for r in resources],
         )
 
     def save_graph(
@@ -73,8 +62,8 @@ class StorageManager:
         self._write_json(
             "graph.json",
             {
-                "nodes": [node.model_dump() for node in nodes],
-                "edges": [edge.model_dump() for edge in edges],
+                "nodes": [n.model_dump() for n in nodes],
+                "edges": [e.model_dump() for e in edges],
             },
         )
 

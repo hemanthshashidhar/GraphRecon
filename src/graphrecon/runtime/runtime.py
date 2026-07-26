@@ -1,4 +1,5 @@
 from graphrecon.browser.browser_manager import BrowserManager
+from graphrecon.collectors.dom.dom_collector import DOMCollector
 from graphrecon.collectors.domain.domain_collector import DomainCollector
 from graphrecon.collectors.page.page_collector import PageCollector
 from graphrecon.collectors.request.request_collector import RequestCollector
@@ -11,10 +12,6 @@ from graphrecon.utils.logger import logger
 
 
 class Runtime:
-    """
-    Coordinates the GraphRecon runtime.
-    """
-
     def __init__(self) -> None:
         self.event_bus = EventBus()
 
@@ -25,23 +22,18 @@ class Runtime:
         self.response_collector = ResponseCollector(self.event_bus)
         self.resource_collector = ResourceCollector(self.event_bus)
 
-        # Analysis collectors
         self.domain_collector = DomainCollector()
+        self.dom_collector = DOMCollector()
 
         self.storage = StorageManager()
         self.graph_builder = GraphBuilder()
 
-        # Register event-based collectors
         self.page_collector.register()
         self.request_collector.register()
         self.response_collector.register()
         self.resource_collector.register()
 
     def scan(self, url: str) -> None:
-        """
-        Execute a scan.
-        """
-
         self.resource_collector.set_target(url)
 
         self.browser.start()
@@ -53,59 +45,40 @@ class Runtime:
                 self.browser.page,
             )
 
+            dom_resources = self.dom_collector.collect(
+                self.browser.page,
+            )
+
         finally:
             self.browser.stop()
 
-        # Build dependency graph
         nodes, edges = self.graph_builder.build(
             self.page_collector.pages,
             self.resource_collector.resources,
         )
 
-        # Build domain intelligence
         domains = self.domain_collector.collect(
             self.resource_collector.resources,
         )
 
-        # Persist scan results
-        self.storage.save_pages(
-            self.page_collector.pages,
-        )
+        self.storage.save_pages(self.page_collector.pages)
+        self.storage.save_requests(self.request_collector.requests)
+        self.storage.save_responses(self.response_collector.responses)
+        self.storage.save_resources(self.resource_collector.resources)
+        self.storage.save_domains(domains)
+        self.storage.save_dom_resources(dom_resources)
+        self.storage.save_graph(nodes, edges)
+        self.storage.save_metadata(url)
 
-        self.storage.save_requests(
-            self.request_collector.requests,
-        )
-
-        self.storage.save_responses(
-            self.response_collector.responses,
-        )
-
-        self.storage.save_resources(
-            self.resource_collector.resources,
-        )
-
-        self.storage.save_domains(
-            domains,
-        )
-
-        self.storage.save_graph(
-            nodes,
-            edges,
-        )
-
-        self.storage.save_metadata(
-            url,
+        logger.info(
+            "DOM dependencies discovered: %d",
+            len(dom_resources),
         )
 
         logger.info(
             "Graph: %d nodes, %d edges",
             len(nodes),
             len(edges),
-        )
-
-        logger.info(
-            "Domains discovered: %d",
-            len(domains),
         )
 
         logger.info(
