@@ -1,3 +1,4 @@
+from graphrecon.collectors.javascript_collector import JavaScriptCollector
 from graphrecon.browser.browser_manager import BrowserManager
 from graphrecon.collectors.dom.dom_collector import DOMCollector
 from graphrecon.collectors.domain.domain_collector import DomainCollector
@@ -20,6 +21,9 @@ class Runtime:
         self.browser = BrowserManager(self.event_bus)
 
         self.page_collector = PageCollector()
+        self.javascript_collector = JavaScriptCollector(
+    self.event_bus,
+)
         self.request_collector = RequestCollector(self.event_bus)
         self.response_collector = ResponseCollector(self.event_bus)
         self.resource_collector = ResourceCollector(self.event_bus)
