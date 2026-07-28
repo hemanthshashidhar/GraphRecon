@@ -7,6 +7,7 @@ from graphrecon.collectors.resource.resource_collector import ResourceCollector
 from graphrecon.collectors.response.response_collector import ResponseCollector
 from graphrecon.crawler.crawler import Crawler
 from graphrecon.events.event_bus import EventBus
+from graphrecon.exporters.graph_html_exporter import GraphHTMLExporter
 from graphrecon.graph.graph_builder import GraphBuilder
 from graphrecon.storage.storage_manager import StorageManager
 from graphrecon.utils.logger import logger
@@ -30,6 +31,7 @@ class Runtime:
 
         self.storage = StorageManager()
         self.graph_builder = GraphBuilder()
+        self.graph_exporter = GraphHTMLExporter()
 
         self.page_collector.register()
         self.request_collector.register()
@@ -85,6 +87,16 @@ class Runtime:
         self.storage.save_dom_resources(dom_resources)
         self.storage.save_graph(nodes, edges)
         self.storage.save_metadata(url)
+
+        # Export interactive graph viewer
+        self.graph_exporter.export(
+            self.storage.scan_dir,
+        )
+
+        logger.info(
+            "Interactive graph saved to %s",
+            self.storage.scan_dir / "graph.html",
+        )
 
         logger.info(
             "Pages crawled: %d",
