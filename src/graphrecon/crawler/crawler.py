@@ -1,3 +1,5 @@
+from collections.abc import Generator
+
 from playwright.sync_api import Page
 
 from graphrecon.crawler.link_extractor import LinkExtractor
@@ -7,6 +9,8 @@ from graphrecon.crawler.url_queue import URLQueue
 class Crawler:
     """
     Breadth-first crawler.
+
+    Yields each loaded page exactly once.
     """
 
     def __init__(
@@ -24,15 +28,15 @@ class Crawler:
         self,
         page: Page,
         start_url: str,
-    ) -> list[str]:
-
-        discovered: list[str] = []
+    ) -> Generator[Page, None, None]:
 
         self.queue.add(start_url, depth=0)
 
+        pages_crawled = 0
+
         while not self.queue.empty():
 
-            if len(discovered) >= self.max_pages:
+            if pages_crawled >= self.max_pages:
                 break
 
             item = self.queue.pop()
@@ -42,17 +46,15 @@ class Crawler:
                 wait_until="networkidle",
             )
 
-            discovered.append(item.url)
+            pages_crawled += 1
 
-            links = self.extractor.extract(
+            yield page
+
+            for link in self.extractor.extract(
                 page,
                 item.url,
-            )
-
-            for link in links:
+            ):
                 self.queue.add(
                     link,
                     depth=item.depth + 1,
                 )
-
-        return discovered

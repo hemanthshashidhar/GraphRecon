@@ -26,7 +26,6 @@ class Runtime:
         self.domain_collector = DomainCollector()
         self.dom_collector = DOMCollector()
 
-        # Crawl up to 25 pages (change later from config)
         self.crawler = Crawler(max_pages=25)
 
         self.storage = StorageManager()
@@ -40,37 +39,29 @@ class Runtime:
     def scan(self, url: str) -> None:
         self.resource_collector.set_target(url)
 
-        self.browser.start()
-
         dom_resources = []
 
+        self.browser.start()
+
         try:
-            discovered_pages = self.crawler.crawl(
+            page_count = 0
+
+            for page in self.crawler.crawl(
                 self.browser.page,
                 url,
-            )
+            ):
+                page_count += 1
 
-            logger.info(
-                "Discovered %d pages",
-                len(discovered_pages),
-            )
-
-            # Collect page information
-            for page_url in discovered_pages:
-
-                self.browser.page.goto(
-                    page_url,
-                    wait_until="networkidle",
+                logger.info(
+                    "[%d] %s",
+                    page_count,
+                    page.url,
                 )
 
-                self.page_collector.collect_page(
-                    self.browser.page,
-                )
+                self.page_collector.collect_page(page)
 
                 dom_resources.extend(
-                    self.dom_collector.collect(
-                        self.browser.page,
-                    )
+                    self.dom_collector.collect(page)
                 )
 
         finally:
@@ -97,12 +88,12 @@ class Runtime:
 
         logger.info(
             "Pages crawled: %d",
-            len(discovered_pages),
+            len(self.page_collector.pages),
         )
 
         logger.info(
-            "DOM resources: %d",
-            len(dom_resources),
+            "Resources: %d",
+            len(self.resource_collector.resources),
         )
 
         logger.info(
