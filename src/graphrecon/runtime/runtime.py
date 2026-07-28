@@ -1,7 +1,7 @@
-from graphrecon.collectors.javascript_collector import JavaScriptCollector
 from graphrecon.browser.browser_manager import BrowserManager
 from graphrecon.collectors.dom.dom_collector import DOMCollector
 from graphrecon.collectors.domain.domain_collector import DomainCollector
+from graphrecon.collectors.javascript_collector import JavaScriptCollector
 from graphrecon.collectors.page.page_collector import PageCollector
 from graphrecon.collectors.request.request_collector import RequestCollector
 from graphrecon.collectors.resource.resource_collector import ResourceCollector
@@ -21,12 +21,10 @@ class Runtime:
         self.browser = BrowserManager(self.event_bus)
 
         self.page_collector = PageCollector()
-        self.javascript_collector = JavaScriptCollector(
-    self.event_bus,
-)
         self.request_collector = RequestCollector(self.event_bus)
         self.response_collector = ResponseCollector(self.event_bus)
         self.resource_collector = ResourceCollector(self.event_bus)
+        self.javascript_collector = JavaScriptCollector(self.event_bus)
 
         self.domain_collector = DomainCollector()
         self.dom_collector = DOMCollector()
@@ -92,9 +90,13 @@ class Runtime:
         self.storage.save_graph(nodes, edges)
         self.storage.save_metadata(url)
 
-        # Export interactive graph viewer
         self.graph_exporter.export(
             self.storage.scan_dir,
+        )
+
+        logger.info(
+            "JavaScript Sources: %d",
+            len(self.javascript_collector.sources),
         )
 
         logger.info(
@@ -116,6 +118,10 @@ class Runtime:
             "Graph: %d nodes, %d edges",
             len(nodes),
             len(edges),
+        )
+        logger.info(
+             "JavaScript sources: %d",
+              len(self.javascript_collector.sources),
         )
 
         logger.info(
