@@ -6,7 +6,7 @@ from graphrecon.crawler.url_queue import URLQueue
 
 class Crawler:
     """
-    Simple breadth-first crawler.
+    Breadth-first crawler.
     """
 
     def __init__(
@@ -28,26 +28,31 @@ class Crawler:
 
         discovered: list[str] = []
 
-        self.queue.add(start_url)
+        self.queue.add(start_url, depth=0)
 
         while not self.queue.empty():
 
             if len(discovered) >= self.max_pages:
                 break
 
-            url = self.queue.pop()
+            item = self.queue.pop()
 
             page.goto(
-                url,
+                item.url,
                 wait_until="networkidle",
             )
 
-            discovered.append(url)
+            discovered.append(item.url)
 
-            for link in self.extractor.extract(
+            links = self.extractor.extract(
                 page,
-                url,
-            ):
-                self.queue.add(link)
+                item.url,
+            )
+
+            for link in links:
+                self.queue.add(
+                    link,
+                    depth=item.depth + 1,
+                )
 
         return discovered
