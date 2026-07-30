@@ -1,42 +1,60 @@
 import re
 
-from graphrecon.models.javascript import JavaScriptFindingModel
+from playwright.sync_api import Response
+
+from graphrecon.cache.response_cache import ResponseCache
 
 
 class JavaScriptAnalyzer:
     """
-    Static JavaScript analyzer.
+    Analyze JavaScript responses captured by Playwright.
     """
 
     PATTERNS = {
-        "fetch": r'fetch\s*\(\s*["\']([^"\']+)["\']',
-        "axios": r'axios\.(?:get|post|put|delete|patch)\s*\(\s*["\']([^"\']+)["\']',
-        "xhr": r'open\s*\(\s*["\'][A-Z]+["\']\s*,\s*["\']([^"\']+)["\']',
-        "websocket": r'new\s+WebSocket\s*\(\s*["\']([^"\']+)["\']',
-        "eventsource": r'new\s+EventSource\s*\(\s*["\']([^"\']+)["\']',
-        "import": r'import\s+.*?from\s+["\']([^"\']+)["\']',
-        "dynamic_import": r'import\s*\(\s*["\']([^"\']+)["\']',
-        "url": r'https?://[^\s"\']+',
+        "fetch": r'fetch\s*\(\s*[\'"]([^\'"]+)',
+        "axios": r'axios\.(?:get|post|put|delete|patch)\s*\(\s*[\'"]([^\'"]+)',
+        "xhr": r'open\s*\(\s*[\'"][A-Z]+[\'"]\s*,\s*[\'"]([^\'"]+)',
+        "websocket": r'new\s+WebSocket\s*\(\s*[\'"]([^\'"]+)',
+        "graphql": r"/graphql",
+        "dynamic_import": r'import\s*\(\s*[\'"]([^\'"]+)',
     }
 
-    def analyze(
+    def __init__(
         self,
-        source: str,
-        script_url: str,
-    ) -> list[JavaScriptFindingModel]:
+        cache: ResponseCache,
+    ) -> None:
+
+        self.cache = cache
+
+    def analyze(self) -> list[dict]:
 
         findings = []
 
-        for finding_type, pattern in self.PATTERNS.items():
+        for response in self.cache.all():
 
-            for match in re.findall(pattern, source):
+            request = response.request
 
-                findings.append(
-                    JavaScriptFindingModel(
-                        finding_type=finding_type,
-                        value=match,
-                        source=script_url,
+            if request.resource_type != "script":
+                continue
+
+            try:
+                source = response.text()
+            except Exception:
+                continue
+
+            for finding_type, pattern in self.PATTERNS.items():
+
+                for match in re.findall(
+                    pattern,
+                    source,
+                ):
+
+                    findings.append(
+                        {
+                            "type": finding_type,
+                            "value": match,
+                            "script": response.url,
+                        }
                     )
-                )
 
         return findings
