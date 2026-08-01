@@ -1,7 +1,7 @@
+from graphrecon.analyzers.javascript.javascript_analyzer import JavaScriptAnalyzer
 from graphrecon.browser.browser_manager import BrowserManager
 from graphrecon.collectors.dom.dom_collector import DOMCollector
 from graphrecon.collectors.domain.domain_collector import DomainCollector
-from graphrecon.collectors.javascript_collector import JavaScriptCollector
 from graphrecon.collectors.page.page_collector import PageCollector
 from graphrecon.collectors.request.request_collector import RequestCollector
 from graphrecon.collectors.resource.resource_collector import ResourceCollector
@@ -10,6 +10,7 @@ from graphrecon.crawler.crawler import Crawler
 from graphrecon.events.event_bus import EventBus
 from graphrecon.exporters.graph_html_exporter import GraphHTMLExporter
 from graphrecon.graph.graph_builder import GraphBuilder
+from graphrecon.storage.javascript_storage import JavaScriptStorage
 from graphrecon.storage.storage_manager import StorageManager
 from graphrecon.utils.logger import logger
 
@@ -24,7 +25,6 @@ class Runtime:
         self.request_collector = RequestCollector(self.event_bus)
         self.response_collector = ResponseCollector(self.event_bus)
         self.resource_collector = ResourceCollector(self.event_bus)
-        self.javascript_collector = JavaScriptCollector(self.event_bus)
 
         self.domain_collector = DomainCollector()
         self.dom_collector = DOMCollector()
@@ -41,6 +41,7 @@ class Runtime:
         self.resource_collector.register()
 
     def scan(self, url: str) -> None:
+
         self.resource_collector.set_target(url)
 
         dom_resources = []
@@ -90,13 +91,24 @@ class Runtime:
         self.storage.save_graph(nodes, edges)
         self.storage.save_metadata(url)
 
+        analyzer = JavaScriptAnalyzer(
+            self.response_collector.cache,
+        )
+
+        findings = analyzer.analyze()
+
+        JavaScriptStorage().save(
+            findings,
+            self.storage.scan_dir,
+        )
+
         self.graph_exporter.export(
             self.storage.scan_dir,
         )
 
         logger.info(
-            "JavaScript Sources: %d",
-            len(self.javascript_collector.sources),
+            "JavaScript findings: %d",
+            len(findings),
         )
 
         logger.info(
@@ -118,10 +130,6 @@ class Runtime:
             "Graph: %d nodes, %d edges",
             len(nodes),
             len(edges),
-        )
-        logger.info(
-             "JavaScript sources: %d",
-              len(self.javascript_collector.sources),
         )
 
         logger.info(

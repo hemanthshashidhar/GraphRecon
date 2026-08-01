@@ -1,0 +1,17 @@
+[
+  {
+    "domain": "fonts.googleapis.com",
+    "resource_count": 1,
+    "third_party": true
+  },
+  {
+    "domain": "fonts.gstatic.com",
+    "resource_count": 1,
+    "third_party": true
+  },
+  {
+    "domain": "quotes.toscrape.com",
+    "resource_count": 36,
+    "third_party": false
+  }
+]
