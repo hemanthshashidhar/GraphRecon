@@ -1,0 +1,152 @@
+[
+  {
+    "url": "https://books.toscrape.com/",
+    "final_url": "https://books.toscrape.com/",
+    "title": "All products | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "title": "A Light in the Attic | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/academic_40/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/academic_40/index.html",
+    "title": "Academic | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html",
+    "title": "Add a comment | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html",
+    "title": "Adult Fiction | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/art_25/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/art_25/index.html",
+    "title": "Art | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html",
+    "title": "Autobiography | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/biography_36/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/biography_36/index.html",
+    "title": "Biography | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/business_35/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/business_35/index.html",
+    "title": "Business | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/childrens_11/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/childrens_11/index.html",
+    "title": "Childrens | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html",
+    "title": "Christian Fiction | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/christian_43/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/christian_43/index.html",
+    "title": "Christian | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/classics_6/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/classics_6/index.html",
+    "title": "Classics | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/contemporary_38/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/contemporary_38/index.html",
+    "title": "Contemporary | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/crime_51/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/crime_51/index.html",
+    "title": "Crime | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/cultural_49/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/cultural_49/index.html",
+    "title": "Cultural | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/default_15/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/default_15/index.html",
+    "title": "Default | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/erotica_50/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/erotica_50/index.html",
+    "title": "Erotica | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html",
+    "title": "Fantasy | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/fiction_10/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/fiction_10/index.html",
+    "title": "Fiction | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html",
+    "title": "Food and Drink | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/health_47/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/health_47/index.html",
+    "title": "Health | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+    "title": "Historical Fiction | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/historical_42/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/historical_42/index.html",
+    "title": "Historical | Books to Scrape - Sandbox",
+    "status": null
+  },
+  {
+    "url": "https://books.toscrape.com/catalogue/category/books/history_32/index.html",
+    "final_url": "https://books.toscrape.com/catalogue/category/books/history_32/index.html",
+    "title": "History | Books to Scrape - Sandbox",
+    "status": null
+  }
+]
