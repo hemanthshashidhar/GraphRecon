@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "https://quotes.toscrape.com/",
+      "type": "page",
+      "label": "Quotes to Scrape"
+    },
+    {
+      "id": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "type": "css",
+      "label": "bootstrap.min.css"
+    },
+    {
+      "id": "https://quotes.toscrape.com/static/main.css",
+      "type": "css",
+      "label": "main.css"
+    },
+    {
+      "id": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "type": "css",
+      "label": "bootstrap.min.css"
+    },
+    {
+      "id": "http://quotes.toscrape.com/static/main.css",
+      "type": "css",
+      "label": "main.css"
+    }
+  ],
+  "edges": [
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "http://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/bootstrap.min.css",
+      "relationship": "link"
+    },
+    {
+      "source": "https://quotes.toscrape.com/",
+      "target": "https://quotes.toscrape.com/static/main.css",
+      "relationship": "link"
+    }
+  ]
+}
