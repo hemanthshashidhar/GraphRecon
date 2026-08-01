@@ -1,0 +1,1796 @@
+[
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Albert-Einstein",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Albert-Einstein/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "referer": "http://quotes.toscrape.com/author/Albert-Einstein/"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "referer": "http://quotes.toscrape.com/author/Albert-Einstein/"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Andre-Gide",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Andre-Gide/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/Andre-Gide/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/Andre-Gide/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Eleanor-Roosevelt",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Eleanor-Roosevelt/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/Eleanor-Roosevelt/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/Eleanor-Roosevelt/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/J-K-Rowling",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/J-K-Rowling/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/J-K-Rowling/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/J-K-Rowling/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Jane-Austen",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Jane-Austen/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/Jane-Austen/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/Jane-Austen/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Marilyn-Monroe",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Marilyn-Monroe/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/Marilyn-Monroe/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/Marilyn-Monroe/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Steve-Martin",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Steve-Martin/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/Steve-Martin/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/Steve-Martin/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/author/Thomas-A-Edison",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/author/Thomas-A-Edison/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-125934-2754546462\"",
+      "referer": "http://quotes.toscrape.com/author/Thomas-A-Edison/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "http://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "if-none-match": "\"1728500061.0-1368-1284638579\"",
+      "referer": "http://quotes.toscrape.com/author/Thomas-A-Edison/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "http://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "http://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/login",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/login",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/login",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/page/2/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/page/2/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/page/2/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/abilities/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/abilities/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/abilities/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/adulthood/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/adulthood/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/adulthood/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/aliteracy/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/aliteracy/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/aliteracy/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/be-yourself/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/be-yourself/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/be-yourself/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/books/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/books/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/books/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/books/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/books/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/books/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/change/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/change/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/change/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/choices/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/choices/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/choices/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/classic/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/classic/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/classic/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/deep-thoughts/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/deep-thoughts/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/deep-thoughts/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/edison/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/edison/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/edison/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/failure/page/1/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/failure/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/failure/page/1/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/tag/friends/",
+    "resource_type": "document",
+    "is_navigation": true,
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/bootstrap.min.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-125934-2754546462\"",
+      "referer": "https://quotes.toscrape.com/tag/friends/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://quotes.toscrape.com/static/main.css",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "if-none-match": "W/\"1728500061.0-1368-1284638579\"",
+      "referer": "https://quotes.toscrape.com/tag/friends/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "if-modified-since": "Wed, 09 Oct 2024 18:54:21 GMT",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css?family=Raleway:400,700",
+    "resource_type": "stylesheet",
+    "is_navigation": false,
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://quotes.toscrape.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0ITw.woff2",
+    "resource_type": "font",
+    "is_navigation": false,
+    "headers": {
+      "origin": "https://quotes.toscrape.com",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://fonts.googleapis.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  }
+]
