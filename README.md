@@ -6,7 +6,7 @@ GraphRecon is an open-source browser-based reconnaissance framework designed to 
 
 Unlike traditional crawlers that only enumerate URLs, GraphRecon uses a real browser (Playwright) to observe how an application actually behaves, making it suitable for modern JavaScript-heavy applications.
 
-> **Project Status:** 🚧 Active Development (Level 1 Scanner)
+> **Project Status:** 🚧 Active  Development (Level 1 Scanner)
 
 ---
 
