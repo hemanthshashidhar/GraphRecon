@@ -9,7 +9,7 @@ responses = runtime.response_collector.cache.all()
 
 print(f"Cached responses: {len(responses)}")
 
-for response in responses:
+for response in responses: 
 
     if response.request.resource_type != "script":
         continue
